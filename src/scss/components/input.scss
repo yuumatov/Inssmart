@@ -1,0 +1,15 @@
+.input {
+  background-color: $c-white;
+  padding: 14px 16px;
+  border: 1px solid $c-gray;
+  border-radius: 16px;
+  transition: border-color $t-base;
+
+  &:focus {
+    border-color: $c-blue;
+  }
+
+  &::placeholder {
+    color: $c-gray;
+  }
+}

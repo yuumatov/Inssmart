@@ -1,0 +1,32 @@
+.button {
+  padding: 14px 24px;
+  border-radius: 16px;
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  color: $c-main;
+
+  &:hover {
+    color: #2C1A9A;
+  }
+
+  &:active {
+    color: #1F1368;
+  }
+
+  &--fill {
+    background-color: $c-blue;
+    color: $c-white;
+
+    &:hover {
+      background-color: #2C1A9A;
+      color: $c-white;
+    }
+
+    &:active {
+      background-color: #1F1368;
+      color: $c-white;
+    }
+  }
+}

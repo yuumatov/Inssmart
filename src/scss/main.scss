@@ -1,0 +1,14 @@
+// Вспомогательные стили
+@import './helpers/variables.scss';
+@import './helpers/mixins.scss';
+@import './helpers/animations.scss';
+
+// Базовые стили
+@import './base/reset.scss';
+@import './base/base.scss';
+@import './base/fonts.scss';
+
+// Стили блоков
+@import './components/button.scss';
+@import './components/input.scss';
+@import './components/tabs.scss';

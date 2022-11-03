@@ -1,0 +1,41 @@
+.tabs {
+  &__controls {
+    display: flex;
+  }
+
+  &__control {
+    background-color: $c-gray;
+    padding: 20px 24px;
+    border-radius: 20px 20px 0 0;
+    border: none;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    cursor: pointer;
+    transition: color $t-base, background-color $t-base;
+
+    &:hover {
+      color: $c-blue;
+    }
+
+    &--active {
+      background-color: $c-white;
+      color: $c-blue;
+
+      &:hover {
+        color: $c-blue;
+      }
+    }
+  }
+
+  &__content {
+    background-color: $c-white;
+    border-radius: 0 20px 20px 20px;
+    padding: 40px 60px;
+    display: none;
+
+    &--active {
+      display: block;
+    }
+  }
+}
