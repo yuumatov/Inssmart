@@ -7,11 +7,36 @@
     <div class="container">
       <div class="tabs">
         <div class="tabs__controls">
-          <button class="tabs__control tabs__control--active">Горный велосипед</button>
-          <button class="tabs__control">Женский велосипед</button>
+          <button class="tabs__control tabs__control--active" data-tabs-id="1">Горный велосипед</button>
+          <button class="tabs__control" data-tabs-id="2">Женский велосипед</button>
         </div>
-        <div class="tabs__content tabs__content--active">Горный велосипед</div>
-        <div class="tabs__content">Женский велосипед</div>
+        <div class="tabs__content tabs__content--active" data-tabs-id="1">
+          <div class="tabs__wrap">
+            <img src="./img/bicycle-1.png" alt="Горный велосипед">
+            <div class="tabs__wrap-content">
+              <h1>Велосипед STELS Navigator 510 HD 26 2022</h1>
+              <p>Данный велосипед с колесами 26 дюймов хорошо подходит высоким подросткам. Прогиб рамы и небольшой размер рамы расчитан на рост от 135 до 165 см.</p>
+              <p>Суммарный вес велосипеда был снижен до 16,9 кг, так как рама была изготовлена с учетом использования велосипеда подростками.</p>
+            </div>
+          </div>
+          <h3>Характеристики</h3>
+          <ul>
+            <li>Двойной обод</li>
+            <li>Колеса диаметром 26 дюймов</li>
+            <li>Алюминиевый сплав</li>
+            <li>Покрышки 26х1,95"</li>
+          </ul>
+          <h3>Добавить характеристику</h3>
+          <form>
+            <input type="text" class="input" placeholder="Наименование характеристики">
+            <input type="submit" class="button button--fill" value="Добавить">
+          </form>
+          <div class="tabs__bottom">
+            <button class="button button--fill">Окей</button>
+            <button class="button">Отмена</button>
+          </div>
+        </div>
+        <div class="tabs__content" data-tabs-id="2">Женский велосипед</div>
       </div>
     </div>
   </main>
