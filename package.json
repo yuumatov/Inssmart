@@ -1,7 +1,7 @@
 {
-  "name": "traderscan",
+  "name": "inssmart",
   "version": "1.0.0",
-  "description": "Project Traderscan",
+  "description": "Project Inssmart",
   "main": "index.js",
   "type": "module",
   "scripts": {
