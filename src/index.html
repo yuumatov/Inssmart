@@ -10,6 +10,10 @@
           <button class="tabs__control tabs__control--active" data-tabs-id="1">Горный велосипед</button>
           <button class="tabs__control" data-tabs-id="2">Женский велосипед</button>
         </div>
+        <button class="tabs__btn tabs__btn--active">
+          <span>Горный велосипед</span>
+          <svg><use xlink:href="./img/sprite.svg#arrow"></use></svg>
+        </button>
         <div class="tabs__content tabs__content--active" data-tabs-id="1">
           <div class="tabs__wrap">
             <img src="./img/bicycle-1.png" alt="Горный велосипед">
@@ -20,15 +24,15 @@
             </div>
           </div>
           <h3>Характеристики</h3>
-          <ol>
+          <ol class="list">
             <li>Двойной обод</li>
             <li>Колеса диаметром 26 дюймов</li>
             <li>Алюминиевый сплав</li>
             <li>Покрышки 26х1,95"</li>
           </ol>
           <h3>Добавить характеристику</h3>
-          <form>
-            <input type="text" class="input" placeholder="Наименование характеристики">
+          <form class="form">
+            <input type="text" class="input" name="name" placeholder="Наименование характеристики">
             <input type="submit" class="button button--fill" value="Добавить">
           </form>
           <div class="tabs__bottom">
@@ -36,7 +40,36 @@
             <button class="button">Отмена</button>
           </div>
         </div>
-        <div class="tabs__content" data-tabs-id="2">Женский велосипед</div>
+        <button class="tabs__btn">
+          <span>Женский велосипед</span>
+          <svg><use xlink:href="./img/sprite.svg#arrow"></use></svg>
+        </button>
+        <div class="tabs__content" data-tabs-id="2">
+          <div class="tabs__wrap">
+            <img src="./img/bicycle-2.png" alt="Женский велосипед">
+            <div class="tabs__wrap-content">
+              <h1>Велосипед SCHWINN Traveler women 2022</h1>
+              <p>Женский велосипед со стальной рамой Classic step-true lightweight позволяет девушкам без проблем его перемещать.</p>
+              <p>На данном велосипеде имеется 7 скоростей с переключателями от Shimano, а жесткая вилка обеспечивает отличную управляемость. Подходит для катания по асфальтированным поверхностям.</p>
+            </div>
+          </div>
+          <h3>Характеристики</h3>
+          <ul class="list">
+            <li>Стальная рама</li>
+            <li>Колеса диаметром 24 дюймов</li>
+            <li>Жесткая вилка</li>
+            <li>7 скоростей</li>
+          </ul>
+          <h3>Добавить характеристику</h3>
+          <form class="form">
+            <input type="text" class="input" name="name" placeholder="Наименование характеристики">
+            <input type="submit" class="button button--fill" value="Добавить">
+          </form>
+          <div class="tabs__bottom">
+            <button class="button button--fill">Окей</button>
+            <button class="button">Отмена</button>
+          </div>
+        </div>
       </div>
     </div>
   </main>

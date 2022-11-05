@@ -14,6 +14,15 @@ body {
 
 .main {
   padding: 80px 100px;
+
+  @include media-max($tablet) {
+    padding: 40px;
+  }
+
+  @include media-max($phablet) {
+    padding: 40px 20px;
+    padding-top: 20px;
+  }
 }
 
 .container {
